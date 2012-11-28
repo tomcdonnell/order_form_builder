@@ -1,0 +1,65 @@
+<?xml version='1.0'?>
+<form>
+ <sections>
+  <section>
+   <type>custom</type>
+   <nameShort>contact-details</nameShort>
+   <nameLong>Contact Details</nameLong>
+  </section>
+  <section>
+   <type>custom</type>
+   <nameShort>contact-details</nameShort>
+   <nameLong>Contact Details</nameLong>
+  </section>
+  <section>
+   <type>normal</type>
+   <nameShort>request-information</nameShort>
+   <nameLong>Request Information</nameLong>
+   <fields>
+    <field>
+     <type>select</type>
+     <name>new-phone-will-replace-existing-phone</name>
+     <questionHtml>Is this replacing an existing DPI mobile?</questionHtml>
+     <defaultSelectedOptionText>Select...</defaultSelectedOptionText>
+     <options>
+      <option><text>Select...</text><classString>not-valid-selection</classString></option>
+      <option><text>No</text></option>
+      <option><text>Yes</text></option>
+     </options>
+    </field>
+    <field>
+     <type>text</type>
+     <name>existing-phone-number</name>
+     <questionHtml>Existing mobile telephone number:</questionHtml>
+     <displayConditions>
+      <displayCondition>
+       <sectionNameShort>request-information</sectionNameShort>
+       <fieldName>new-phone-will-replace-existing-phone</fieldName>
+       <value>Yes</value>
+      </displayCondition>
+     </displayConditions>
+    </field>
+    <field>
+     <type>select</type>
+     <name>existing-phone-fate</name>
+     <questionHtml>The phone being replaced:</questionHtml>
+     <defaultSelectedOptionText>Select...</defaultSelectedOptionText>
+     <options>
+      <option><text>Select...</text><classString>not-valid-selection</classString></option>
+      <option><text>Was lost/stolen</text></option>
+      <option><text>it is not functioning and will be returned</text></option>
+      <option><text>Is being upgraded and will be returned</text></option>
+      <option><text>Is being transferred</text></option>
+     </options>
+     <displayConditions>
+      <displayCondition>
+       <sectionNameShort>request-information</sectionNameShort>
+       <fieldName>new-phone-will-replace-existing-phone</fieldName>
+       <value>Yes</value>
+      </displayCondition>
+     </displayConditions>
+    </field>
+   </fields>
+  </section>
+ </sections>
+</form>

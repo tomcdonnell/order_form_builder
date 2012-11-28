@@ -1,0 +1,25 @@
+/**************************************************************************************************\
+*
+* vim: ts=3 sw=3 et wrap go-=b
+*
+* Filename: "general_styles.css"
+*
+* Project: Common
+*
+* Purpose: Generic styles to be used in many projects.
+*
+* Author: Tom McDonnell 2010-07-13.
+*
+\**************************************************************************************************/
+
+*.alignL {text-align: left  ;}
+*.alignC {text-align: center;}
+*.alignR {text-align: right ;}
+
+*.valignT {vertical-align: top   ;}
+*.valignM {vertical-align: middle;}
+*.valignB {vertical-align: bottom;}
+
+*.italic {font-style: italic;}
+
+/*******************************************END*OF*FILE********************************************/

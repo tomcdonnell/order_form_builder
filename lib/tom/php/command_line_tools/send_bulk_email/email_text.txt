@@ -1,0 +1,25 @@
+Hello,
+
+This is a reminder that you need to complete your assessment of the 2011/2012
+PMO plans of all of your direct reports.
+
+You have been sent this email because at least one 2011/2012 PMO plan owned
+your direct reports is at plan status 'Employee Self-Assessment Complete' or
+'Awaiting Final Approval'.
+
+Instructions:
+
+ 1. Log into PMO at http://intra/pmo.
+ 2. Click the 'Direct Reports' link at the left side of the page.
+    Links to the 2011/2012 and 2012/2013 plans owned by your direct reports
+    will be displayed.
+ 3. Look for 2011/2012 plans whose status is 'Self-Assessment Complete' or
+    'Awaiting Manager Approval'.
+ 4. For each plan found, click the link corresponding to the plan.
+    The plan will be displayed.
+ 5. Complete your assessment of the plan by clicking 'Complete Final
+    Assessment'.  If a validation error message is displayed, take appropriate
+    action to ensure all your scores are entered then click the button again.
+
+
+For any further performance management process queries contact human.resources@dpi.vic.com.au

@@ -1,0 +1,30 @@
+#purchase-bundle-images-div
+{
+   float: left;
+   width: 70%;
+}
+
+#purchase-bundle-costs-table
+{
+   float: right;
+   width: 30%;
+}
+
+#purchase-bundle-costs-table tr > td,
+#purchase-bundle-costs-table tr.subtotal-tr th
+{
+   padding-left: 5px;
+}
+
+#purchase-bundle-costs-setup-total-td,
+#purchase-bundle-costs-monthly-total-td,
+#purchase-bundle-costs-yearly-total-td
+{
+   font-weight: bold;
+}
+
+#purchase-bundle-costs-table tr.subtotal-tr th,
+#purchase-bundle-costs-table tr.subtotal-tr td
+{
+   padding-bottom: 5px;
+}

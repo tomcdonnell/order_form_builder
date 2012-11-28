@@ -1,0 +1,113 @@
+FORM:
+   'arrayOf SECTION'
+
+SECTION:
+   'or CUSTOM_SECTION NORMAL_SECTION'
+
+CUSTOM_SECTION:
+   'array
+      compulsoryTypeByKey:
+      [
+         sectionType:string
+         nameLong:string
+      ]
+      optionalTypeByKey:
+      [
+      ]'
+
+NORMAL_SECTION:
+   'array
+      compulsoryTypeByKey
+      [
+         nameShort:string
+         nameLong:string
+         fieldDefinitions:[arrayOf FIELD]
+      ]
+      optionalTypeByKey:
+      [
+      ]'
+
+FIELD:
+   'or
+      FIELD_PARAGRAPH
+      FIELD_SELECT
+      FIELD_TEXT
+      FIELD_TEXTAREA'
+
+FIELD_PARAGRAPH:
+   'array
+      compulsoryTypeByKey
+      [
+         fieldType:[literal 'paragraph']
+         text:string
+      ]
+      optionalTypeByKey:
+      [
+         displayConditions:[arrayOf FIELD_DISPLAY_CONDITION]
+         classString:string
+      ]'
+
+FIELD_SELECT:
+   'array
+      compulsoryTypeByKey
+      [
+         fieldType:[literal 'select']
+         defaultSelectedOptionText:string
+         questionHtml:string
+         options:[arrayOf FIELD_SELECT_OPTION]
+      ]
+      optionalTypeByKey:
+      [
+         displayConditions:[arrayOf FIELD_DISPLAY_CONDITION]
+         classString:string
+      ]'
+      
+FIELD_TEXT:
+   'array
+      compulsoryTypeByKey
+      [
+         fieldType:[literal 'text']
+         questionHtml:string
+      ]
+      optionalTypeByKey:
+      [
+         displayConditions:[arrayOf FIELD_DISPLAY_CONDITION]
+         classString:string
+      ]'
+
+FIELD_TEXTAREA:
+   'array
+      compulsoryTypeByKey
+      [
+         fieldType:[literal 'textarea']
+         questionHtml:string
+      ]
+      optionalTypeByKey:
+      [
+         displayConditions:[arrayOf FIELD_DISPLAY_CONDITION]
+         classString:string
+      ]'
+
+FIELD_SELECT_OPTION:
+   'array
+      compulsoryTypeByKey
+      [
+         text:string
+      ]
+      optionalTypeByKey
+      [
+         itemNameShortsToAddIfSelected:[arrayOf string]
+         classString:string
+      ]
+
+FIELD_DISPLAY_CONDITION:
+   'array
+      compulsoryTypeByKey
+      [
+         sectionNameShort:string
+         fieldName:string
+         value:string
+      ]
+      optionalTypeByKey:
+      [
+      ]

@@ -1,0 +1,85 @@
+/**************************************************************************************************\
+*
+* vim: ts=3 sw=3 et co=100 go-=b
+*
+* Filename: "styleCalendar.css"
+*
+* Project: GUI Elements: SelectorCalendar.
+*
+* Purpose: Sylesheet for SelectorCalendar.
+*
+* Author: Tom McDonnell 2007-12-28.
+*
+\**************************************************************************************************/
+
+/*
+ * NOTE: The '>' selector does not work in IE6 so should not be used in this file.
+ */
+
+table.calendar
+{
+   cursor: default;
+   border-collapse: collapse;
+}
+
+/* Heading squares. *******************************************************************************/
+
+table.calendar tbody tr th
+{
+   background-color: #bbb;
+}
+
+table.calendar tbody tr th.week
+{
+   background-color: #bbb;
+}
+
+table.calendar tbody tr th.year
+{
+   background-color: #eaa;
+}
+
+table.calendar tbody tr th.month
+{
+   background-color: #aea;
+}
+
+table.calendar tbody tr th.day
+{
+   background-color: #aae;
+}
+
+table.calendar tbody tr td.closeButton
+{
+   background-color: #eaa;
+   text-align: center;
+}
+
+/* Data squares. **********************************************************************************/
+
+table.calendar tbody tr td
+{
+   background-color: #eee;
+   text-align: right;
+   padding-left: 0.5em;
+   padding-right: 0.5em;
+}
+
+table.calendar tbody tr td.weekNumber
+{
+   background-color: #ccc;
+   text-align: center;
+}
+
+table.calendar tbody tr td.selected
+{
+   background-color: #f00;
+}
+
+table.calendar tbody tr td.prevMonth,
+table.calendar tbody tr td.nextMonth
+{
+   color: #aaa;
+}
+
+/*******************************************END*OF*FILE********************************************/

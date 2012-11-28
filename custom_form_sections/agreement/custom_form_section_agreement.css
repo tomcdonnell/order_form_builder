@@ -1,0 +1,15 @@
+fieldset.custom-form-section-agreement > span
+{
+	display: inline-block;
+}
+
+fieldset.custom-form-section-agreement > span.left-span
+{
+   height: 100%;
+   width: 7%;
+}
+
+fieldset.custom-form-section-agreement > span.right-span
+{
+   width: 93%;
+}

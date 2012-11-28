@@ -1,0 +1,11 @@
+fieldset.form-section-charge-codes > ul
+{
+   padding-left: 0;
+}
+
+fieldset.form-section-charge-codes > ul > li > input
+{
+   width: 50px;
+   margin-left: 2px;
+   margin-right: 2px;
+}

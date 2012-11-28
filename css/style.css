@@ -1,0 +1,157 @@
+body
+{
+   font-family: arial, helvetica, sans-serif;
+   font-size: 12px;
+   margin-left: 0;
+   margin-top: 0;
+   text-align: left;
+}
+
+div.clear-floats
+{
+   clear: both;
+}
+
+div.audit-div
+{
+   border-style: solid;
+   border-width: 1px;
+   border-color: #f00;
+}
+
+div.audit-div h2
+{
+   margin-left: 20px;
+}
+
+div.audit-div li.highlighted
+{
+   background-color: #f99;
+}
+
+div.audit-div div.left-div
+{
+   float: left;
+   width: 350px;
+}
+
+div.audit-div div.right-div
+{
+   margin-top: 12px;
+   margin-right: 20px;
+   float: right;
+}
+
+div.audit-div p.explanation
+{
+   margin-left: 20px;
+}
+
+li.value-changed-since-previous-revision
+{
+   background-color: #f99;
+}
+
+.red
+{
+   color: red;
+}
+
+.incomplete-field
+{
+   border-color: red !important;
+   border-style: solid !important;
+   border-width: 1px !important;
+}
+
+.form-title
+{
+   font-size: 18px;
+   font-weight: 600;
+   line-height: normal;
+   padding: 30px 0 20px;
+}
+
+.audit-div,
+.form-div
+{
+   margin: 1px auto;
+   width: 590px;
+}
+
+fieldset.form-section
+{
+    background-color: #eff5f7;
+    border: 1px solid #99d3e7;
+    display: block;
+    font-family: arial;
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    width: 570px;
+}
+
+fieldset.form-section > legend
+{
+    color: #0092c3;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding-left: 2px;
+    padding-right: 2px;
+    text-transform: uppercase;
+}
+
+fieldset.form-section > ul
+{
+   list-style: none;
+   padding-left: 50px;
+}
+
+fieldset.form-section > ul > li
+{
+   padding: 5px 0;
+}
+
+fieldset.form-section > ul > li > label
+{
+   color: #333;
+   display: inline-block;
+   font-size: 12px;
+   text-align: right;
+   width: 150px;
+}
+
+fieldset.submit-fieldset
+{
+   text-align: center;
+   border-width: 0;
+}
+
+input#save-without-submitting-button,
+input#save-and-submit-button
+{
+   width: 200px;
+}
+
+/* Failure messages. -----------------------------------------------------------------------------*/
+
+#failure-message-div
+{
+   background-color: #ff0000;
+   display: none;
+   height: 42px;
+   margin-left: auto;
+   margin-right: auto;
+   position: absolute;
+   text-align: center;
+   top: 80px;
+   width: 590px;
+}
+
+#failure-message-div > p
+{
+   color: #fff;
+   font-size: 14px;
+}
