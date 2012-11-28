@@ -36,10 +36,15 @@ class Config
    //const PATH_TO_PROJECT_ROOT_FROM_WEB_ROOT    = '/order_form_builder';
    //const PATH_TO_PROJECT_ROOT_FROM_SERVER_ROOT = '/data/xampp/htdocs/order_form_builder';
 
-   // Home..
-   const DOMAIN_NAME                           = 'localhost';
-   const PATH_TO_PROJECT_ROOT_FROM_WEB_ROOT    = '/tom/order_form_builder';
-   const PATH_TO_PROJECT_ROOT_FROM_SERVER_ROOT = '/home/tom/htdocs/order_form_builder';
+   // Home.
+   //const DOMAIN_NAME                           = 'localhost';
+   //const PATH_TO_PROJECT_ROOT_FROM_WEB_ROOT    = '/tom/order_form_builder';
+   //const PATH_TO_PROJECT_ROOT_FROM_SERVER_ROOT = '/home/tom/htdocs/order_form_builder';
+
+   // My server.
+   const DOMAIN_NAME                           = 'tomcdonnell.net';
+   const PATH_TO_PROJECT_ROOT_FROM_WEB_ROOT    = '/temp/order_form_builder';
+   const PATH_TO_PROJECT_ROOT_FROM_SERVER_ROOT = '/srv/http/tomcdonnell.net/temp/order_form_builder';
 
    const FAILURE_MESSAGE_TIMEOUT_MS = 3000;
 }
