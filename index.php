@@ -1,4 +1,10 @@
+<!DOCTYPE html>
+<html>
+ <head><title>Test</title></head>
+ <body><h1>This is a test</h1></body>
+</html>
 <?php
+die;
 /*
  * vim: ts=3 sw=3 et wrap co=100 go-=b
  */
