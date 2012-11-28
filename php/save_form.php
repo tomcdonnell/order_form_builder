@@ -3,6 +3,8 @@
  * vim: ts=3 sw=3 et wrap co=100 go-=b
  */
 
+date_default_timezone_set('Australia/Melbourne');
+
 require_once dirname(__FILE__) . '/../config/Config.php';
 require_once dirname(__FILE__) . '/../config/database.php';
 require_once dirname(__FILE__) . '/../lib/tom/php/utils/Utils_error.php';
