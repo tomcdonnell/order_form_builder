@@ -7,6 +7,6 @@ require_once dirname(__FILE__) . '/../lib/tom/php/database/mysql_pdo/PdoExtended
 
 $pdoEx = new PdoExtended
 (
-    'mysql:host=localhost;dbname=generic_forms', 'admin_forms', 'f0rmanSchw@rzkopf'
+    'mysql:host=localhost;dbname=generic_forms', 'admin_forms', 'demopassword'
 );
 ?>
